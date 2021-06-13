@@ -1,5 +1,6 @@
 #!/bin/python
 
+
 def vigenere_enc(key, message):
 	key_counter = 0;
 	cyphertext = bytearray(len(message))
@@ -19,9 +20,11 @@ def vigenere_dec(key, message):
 	
 	return cyphertext
 
+
 '''
 	TODO Do cryptanalysis
 '''
+
 
 if __name__ == "__main__":
 	message = bytearray(b"Hi this is a plaintext")
